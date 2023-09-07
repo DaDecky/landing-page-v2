@@ -6,8 +6,8 @@
 }
 /* Adding padding to every section */
 .padding-left-right {
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 10em;
+  padding-right: 10em;
 }
 
 li {
@@ -35,4 +35,37 @@ header li a {
 header ul {
   display: flex;
   gap: 20px;
+}
+
+.hero {
+  display: flex;
+  background-color: #1f2937;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.hero .hero-img {
+  width: 1000px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  color: #e5e7eb;
+}
+.hero .hero-left .hero-main-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+.hero .hero-left .hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 15px 0;
+}
+.hero .hero-signup-button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 10px;
 }
